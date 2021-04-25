@@ -6,7 +6,16 @@
 
     <groupId>com.leyou.parent</groupId>
     <artifactId>leyou</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>leyou-registry</module>
+        <module>leyou-getway</module>
+        <module>leyou-gateway</module>
+        <module>leyou-item</module>
+        <module>leyou-common</module>
+        <module>leyou-upload</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
